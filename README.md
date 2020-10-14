@@ -48,6 +48,15 @@
     - [6. ``Symbol.Description``](#6-symboldescription)
     - [7. ``BigInt``](#7-bigint)
     - [8. globalThis](#8-globalthis)
+  - [六. ES11（2020）](#六-es112020)
+    - [1 ``matchAll``](#1-matchall)
+    - [2 动态``import``](#2-动态import)
+    - [3 ``export * as ns from 'module'``](#3-export--as-ns-from-module)
+    - [4 ``Promise.allSettled``](#4-promiseallsettled)
+    - [5 ``BigInt``](#5-bigint)
+    - [6 ``GlobalThis``](#6-globalthis)
+    - [7 Nullish coalescing Operator ``??``](#7-nullish-coalescing-operator-)
+    - [8 Optional Chaining ``?.``](#8-optional-chaining-)
 
 ## 一. 简介
 ### 1. 引入流程
@@ -247,3 +256,12 @@ const same = BigInt("9007199254740991"); // initialize with "string" 90071992547
 ```
 ### 8. globalThis
 > - 兼容所有平台的全局作用域
+## 六. ES11（2020）
+### 1 ``matchAll``
+### 2 动态``import``
+### 3 ``export * as ns from 'module'``
+### 4 ``Promise.allSettled``
+### 5 ``BigInt``
+### 6 ``GlobalThis``
+### 7 Nullish coalescing Operator ``??``
+### 8 Optional Chaining ``?.``
